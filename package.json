@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm run start-server\" \"npm run start-frontend\"",
+    "start-server": "npm run start --prefix server",
+    "start-frontend": "npm run start --prefix frontend"
+  }
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.homepage_bg {
+  background: url("frontend\src\assets\Images\banner.mp4");
+  
+}
